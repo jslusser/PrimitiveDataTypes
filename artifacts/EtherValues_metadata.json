@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getQtyeTH",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_newInt",
+						"type": "int256"
+					}
+				],
+				"name": "setQtyETH",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"primitiveDataTypes.sol": "EtherValues"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"primitiveDataTypes.sol": {
+			"keccak256": "0xe3c890ed194032898d8b909a0079706c78facb5fb64bb72d6436c4b862008343",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://708eacc180471fcc9bf53d340d4a1690c55130b7260d070ae0b572dd1fc83115",
+				"dweb:/ipfs/QmT39jDCywjgV6h51ThTx33NyA5dLdEUK49Lv9FmFdWKtF"
+			]
+		}
+	},
+	"version": 1
+}
